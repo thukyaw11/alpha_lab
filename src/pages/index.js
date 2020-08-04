@@ -10,25 +10,21 @@ import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
 
+
 export default () => (
   <Layout>
-    <section className="pt-20 md:pt-40">
-      <div className="container mx-auto px-8 lg:flex">
-        <div className="text-center lg:text-left lg:w-1/2">
-          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Main title of your landing page
+    <section className="pt-20 md:pt-10">
+      <div className="container mx-auto px-8">
+        <div className="pt-20 text-center lg:text-left">
+          <h1 className="text-4xl lg:text-4xl xl:text-4xl font-bold leading-none text-center" >
+            Everything was started by Alpha
           </h1>
-          <p className="text-xl lg:text-2xl mt-6 font-light">
-            Free landing page template to promote your business startup and generate leads for the
-            offered services
-          </p>
-          <p className="mt-8 md:mt-12">
+          <br/>
+          <p class="text-1xl lg:text-1xl xl:text-1xl text-gray-700 text-center">We serve for your business</p>
+          <p className="mt-8 md:mt-12 text-center">
             <Button size="lg">Get Started</Button>
           </p>
-          <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
-        </div>
-        <div className="lg:w-1/2">
-          <HeroImage />
+          <p className="mt-4 text-gray-600 text-center">Your business is our business</p>
         </div>
       </div>
     </section>
